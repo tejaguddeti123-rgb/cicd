@@ -3,6 +3,6 @@ steps:
   args: ['build', '-t', 'IMAGE_NAME', '.']
 
 options:
-  logging: CLOUD_LOGGING_ONLY
+  default_logs_bucket_behavior: REGIONAL_USER_OWNED_BUCKET
 
 serviceAccount: your-sa@project.iam.gserviceaccount.com
